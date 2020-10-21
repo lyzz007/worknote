@@ -6,7 +6,7 @@
 
 ## 邮箱
 
-- 网站：https://mail.smawave.com:8000/
+- 网站：a<https://mail.smawave.com:8000/>
 
 - 账号：jun.liu@smawave.com
 
@@ -14,7 +14,7 @@
 
 ## SPMS（redmine账户）
 
-- 网址: https://spms.smawave.com/login
+- 网址: a<https://spms.smawave.com/login>
 
 - 账号：jun.liu@
 
@@ -55,3 +55,35 @@ change### 导师：杨登利
 ## 相关书籍
 
 - 漫画IP,网络是怎样连接的,大话移动通信、深入浅出4G网络(LTE/EPC)
+
+## 板子下载写号流程
+
+### 样机
+
+- 型号：3045
+
+- 有两部分组成：gct模块跟MTK组成
+
+#### 升级
+
+##### MTK升级
+
+- 网址：192.168.1.1
+
+- 账号&密码：superadmin/admin
+
+##### gct 升级
+
+- 网址：169.254.0.1
+
+- 首先升级先升级uboot(V1.05)，在升级软件包
+
+##### MSN号及Mac地址
+
+- crt连接192.168.1.1，用指令写产品号、sn号及mac地址
+
+- 写完后页面重启
+
+##### IMEI号
+
+- crt连接169.254.0.1后，用DM模式下at指令写IMEI号，写完重启
