@@ -10,15 +10,15 @@
 
 ## 补线损，根据接入的设备而定
 
-![补线损](worknote/img/2.png)
+![补线损](/worknote/img/2.png)
 
-![补10](worknote/img/3.png)
+![补10](/worknote/img/3.png)
 
-![补30](worknote/img/4.png)
+![补30](/worknote/img/4.png)
 
 ## 天线接入规则
 
-![接入规则](worknote/img/5.png)
+![接入规则](/worknote/img/5.png)
 
 - RF com1 可接可收，其余可收
   
@@ -30,4 +30,4 @@
 
 - crt串口log打开，输入q 2 ,  dou meter打开，新建停表，ftp打开连上仪表,从服务器下载到本地，停表点击开始，然后截图
   
-![截图](worknote/img/7.png)
+![截图](/worknote/img/7.png)
